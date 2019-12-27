@@ -70,7 +70,7 @@ class Game
       puts "Turn: #{@board.turn_count+1}\n"
       @board.display
       @board.update(current_move, player)
-      #puts "#{player.token} moved #{current_move}"
+      puts "#{player.token} moved #{current_move}"
       @board.display
       puts "\n\n"
     end
